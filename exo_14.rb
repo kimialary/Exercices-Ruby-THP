@@ -1,7 +1,7 @@
 emails = Array.new
 i = 01
 
-50.times do email = "jean.dupont.#{i}@email.com"
+50.times do email = "jean.dupont.0#{i}@email.com"
     if i.even? #pour les nbres paires
     emails << email
     end
